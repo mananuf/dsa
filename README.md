@@ -60,7 +60,8 @@ Each solution lives in its own self-contained Go file, named by the **day** it w
 dsa/
 ├── go.mod                      # module: github.com/mananuf/dsa
 ├── README.md                   # you are here
-└── d1_add_two_numbers.go       # Day 1 — LeetCode #2: Add Two Numbers
+├── d1_add_two_numbers.go       # Day 1 — LeetCode #2: Add Two Numbers
+└── d2_len_of_longest_substring.go  # Day 2 — LeetCode #3: Longest Substring Without Repeating Characters
 ```
 
 ### Naming convention
@@ -168,6 +169,7 @@ A running tally of the streak. Updated as the days roll on.
 | Day | Problem | Source | Difficulty | Pattern | Solution |
 | --- | --- | --- | --- | --- | --- |
 | 1 | Add Two Numbers (#2) | LeetCode | 🟡 Medium | Linked List · Math · Carry | [`d1_add_two_numbers.go`](./d1_add_two_numbers.go) |
+| 2 | Longest Substring Without Repeating Characters (#3) | LeetCode | 🟡 Medium | Strings · Sliding Window · Hash Map | [`d2_len_of_longest_substring.go`](./d2_len_of_longest_substring.go) |
 
 > _More squares to come. The streak is the point._
 
@@ -177,7 +179,7 @@ A running tally of the streak. Updated as the days roll on.
 
 As the logbook grows, it will span the full DSA landscape:
 
-- **Arrays & Strings** — two pointers, sliding window, prefix sums
+- **Arrays & Strings** — two pointers, sliding window, prefix sums ✅ _(started Day 2)_
 - **Linked Lists** — traversal, reversal, cycle detection ✅ _(started Day 1)_
 - **Stacks & Queues** — monotonic stacks, BFS scaffolding
 - **Hash Maps & Sets** — frequency counting, lookups, dedup
