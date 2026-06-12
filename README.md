@@ -62,7 +62,8 @@ dsa/
 ├── README.md                   # you are here
 ├── d1_add_two_numbers.go       # Day 1 — LeetCode #2: Add Two Numbers
 ├── d2_len_of_longest_substring.go  # Day 2 — LeetCode #3: Longest Substring Without Repeating Characters
-└── d3_median_of_two_sorted_arrays.go  # Day 3 — LeetCode #4: Median of Two Sorted Arrays
+├── d3_median_of_two_sorted_arrays.go  # Day 3 — LeetCode #4: Median of Two Sorted Arrays
+└── d4_longest_palindrome_string.go  # Day 4 — LeetCode #5: Longest Palindromic Substring
 ```
 
 ### Naming convention
@@ -172,6 +173,7 @@ A running tally of the streak. Updated as the days roll on.
 | 1 | Add Two Numbers (#2) | LeetCode | 🟡 Medium | Linked List · Math · Carry | [`d1_add_two_numbers.go`](./d1_add_two_numbers.go) |
 | 2 | Longest Substring Without Repeating Characters (#3) | LeetCode | 🟡 Medium | Strings · Sliding Window · Hash Map | [`d2_len_of_longest_substring.go`](./d2_len_of_longest_substring.go) |
 | 3 | Median of Two Sorted Arrays (#4) | LeetCode | 🔴 Hard | Arrays · Binary Search · Partitioning | [`d3_median_of_two_sorted_arrays.go`](./d3_median_of_two_sorted_arrays.go) |
+| 4 | Longest Palindromic Substring (#5) | LeetCode | 🟡 Medium | Strings · Two Pointers · Expand Around Center | [`d4_longest_palindrome_string.go`](./d4_longest_palindrome_string.go) |
 
 > _More squares to come. The streak is the point._
 
