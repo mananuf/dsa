@@ -61,7 +61,8 @@ dsa/
 ├── go.mod                      # module: github.com/mananuf/dsa
 ├── README.md                   # you are here
 ├── d1_add_two_numbers.go       # Day 1 — LeetCode #2: Add Two Numbers
-└── d2_len_of_longest_substring.go  # Day 2 — LeetCode #3: Longest Substring Without Repeating Characters
+├── d2_len_of_longest_substring.go  # Day 2 — LeetCode #3: Longest Substring Without Repeating Characters
+└── d3_median_of_two_sorted_arrays.go  # Day 3 — LeetCode #4: Median of Two Sorted Arrays
 ```
 
 ### Naming convention
@@ -170,6 +171,7 @@ A running tally of the streak. Updated as the days roll on.
 | --- | --- | --- | --- | --- | --- |
 | 1 | Add Two Numbers (#2) | LeetCode | 🟡 Medium | Linked List · Math · Carry | [`d1_add_two_numbers.go`](./d1_add_two_numbers.go) |
 | 2 | Longest Substring Without Repeating Characters (#3) | LeetCode | 🟡 Medium | Strings · Sliding Window · Hash Map | [`d2_len_of_longest_substring.go`](./d2_len_of_longest_substring.go) |
+| 3 | Median of Two Sorted Arrays (#4) | LeetCode | 🔴 Hard | Arrays · Binary Search · Partitioning | [`d3_median_of_two_sorted_arrays.go`](./d3_median_of_two_sorted_arrays.go) |
 
 > _More squares to come. The streak is the point._
 
@@ -185,7 +187,7 @@ As the logbook grows, it will span the full DSA landscape:
 - **Hash Maps & Sets** — frequency counting, lookups, dedup
 - **Trees & Graphs** — DFS, BFS, traversals, shortest paths
 - **Recursion & Backtracking** — permutations, combinations, subsets
-- **Sorting & Searching** — binary search, quickselect
+- **Sorting & Searching** — binary search, quickselect ✅ _(started Day 3)_
 - **Dynamic Programming** — memoization, tabulation, state machines
 - **Greedy & Math** — interval scheduling, number theory
 
